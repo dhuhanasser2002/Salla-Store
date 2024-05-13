@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Check Out</title>
+</head>
+<body>
+       <!-- start header -->
+       <header>
+        <!-- start top head -->
+        <div class="tophead">
+            <div class="left">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Exchange or return policy</li>
+                    <li>Favorite</li>
+                    <li>Ar/En</li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Support@salla.sa</li><img src="./assets/images/email.png" alt="email">
+                    <li>+966556754472</li><img src="./assets/images/call.png" alt="">
+                </ul>
+            </div>
+        </div>
+        <!-- end top head -->
+        <!-- start nav -->
+        <nav>
+            <div class="brand">
+               <a href="./index.html"><img src="./assets/images/all product/brand.png" alt=""></a> 
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="desc">
+                        <p>Shopping Cart</p>
+                        <p>1,200 SR</p>
+                    </div>
+                    <div class="icon">
+                        <a href="./Order Details.html"><img src="./assets/images/all product/Cart/cart.png" alt=""></a> 
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="desc">
+                        <p>Welcome</p>
+                        <div class="login">
+                            <img src="./assets/images/arrow.png" alt="">
+                            <p>Login</p>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="./info.html"><img src="./assets/images/all product/Cart/icon-1.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main>
+      <section id="Check_Out">
+        <h1>Check Out</h1>
+
+       <div class="grid_container">
+          <div class="item1">
+              <label for="First Name">First Name*</label>
+              <input type="text" id="First Name" placeholder="First Name">
+          </div> 
+
+          <div class="item1">
+              <label for="Last Name">Last Name*</label>
+              <input type="text" id="Last Name" placeholder="Last Name">
+          </div>
+
+          <div class="item1">
+              <label for="Country / Region">Country / Region*</label>
+              <input type="text" id="Country / Region" placeholder="Country / Region">
+          </div>  
+
+          <div class="item1">
+              <label for="Company Name">Company Name</label>
+              <input type="text" id="Company Name" placeholder="Company Name">
+          </div>
+
+          <div class="item1">
+              <label for="Street Address*">Street Address*</label>
+              <input type="text" id="Street Address*" placeholder="House number and street name">
+          </div>  
+
+          <div class="item1">
+              <label for="Apt">Apt, suite, unit</label>
+              <input type="text" id="Apt" placeholder="apartment, suite, unit, etc. (optional)">
+          </div>  
+        </div>
+        <div class="container">
+            <div class="item2">
+                <label for="City">City*</label>
+                <input type="text" id="City*" placeholder="Town / City">
+            </div>  
+    
+            <div class="item2">
+                <label for="State*">State*</label>
+                <select  id="State" aria-placeholder="State">
+                    <option value="selected">State</option>
+                </select>
+            </div>  
+    
+            <div class="item2">
+                <label for="Postal Code">Postal Code*</label>
+                <input type="text" id="Postal" placeholder="Postal Code">
+            </div>  
+    
+        </div>
+        <div class="item3">
+            <label for="Phone">Phone*</label>
+            <input type="text" id="Phone" placeholder="Phone">
+        </div>  
+
+      
+        <input type="submit" value="Check Out" class="check">
+ 
+        <div class="box">
+            <input type="checkbox" id="check">
+            <label for="check">Save my information for a faster checkout</label>
+ 
+        </div>
+      </section>
+    <section id="Payment">
+        <h1>Payment Method</h1>
+        <p>All transactions are secure and encrypted.</p>
+
+      <div class="container">
+        <div class="card">
+            <div class="icon">
+                <input type="radio" id="pay" name="pay">
+            </div>
+            <div class="pay">
+                <p><label for="pay">Credit Card</label></p>
+               <p> <label for="pay">We accept all major credit cards.</label></p>
+            </div>
+         </div>
+         <div class="image">
+             <img src="./assets/images/play.png" alt="">
+             <img src="./assets/images/visa.png" alt="">
+             <img src="./assets/images/paypal.png" alt="">
+            <img src="./assets/images/pass.png" alt="">
+        </div>
+   
+        <div class="item11">
+           <div class="item1">
+               <input type="text"  placeholder="Card number">
+            </div> 
+     
+           <div class="item1">
+               <input type="text"  placeholder="Name of card">
+            </div>
+     
+           <div class="item1">
+               <input type="text"  placeholder="Expiration date (MM/YY)">
+            </div>  
+     
+           <div class="item1">
+               <input type="text"  placeholder="Security Code">
+            </div>  
+        </div>
+   
+          <div class="card1">
+           <div class="icon">
+             <input type="radio" id="Cash" name="pay">
+           </div>
+           <div class="pay">
+            <label for="Cash">Cash on delivery</label>
+            <label for="Cash">Pay with cash upon delivery.</label>
+           </div>
+        </div>
+        <div class="card">
+             <div class="icon">
+                <input type="radio" id="paypol" name="pay">
+             </div>
+              <div class="pay">
+                <label for="paypol">Paypol</label>
+             </div>
+        </div>
+   
+        <input type="submit" value="Check Out" class="check">
+   
+      </div>
+     </section>
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer>
+        <!-- start topfooter -->
+        <section id="topfooter">
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/messege.png" alt="">
+                </div>
+                <div class="desc">
+                    <h2>Subscribe to the newsletter</h2>
+                    <p>Join now and get 10% off your next purchase!</p>
+                </div>
+            </div>
+            <div class="form">
+                <div class="text">
+                    <input type="text" placeholder="Enter Your Email">
+                </div>
+                <div class="btn">
+                    <button>Subscrib</button>
+                </div>
+            </div>
+        </section>
+        <!-- end topfooter -->
+        <!-- start downfooter -->
+        <section id="downfooter">
+            <div class="left">
+                <p>All rights reserved to the basket platform © 2023</p>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <img src="./assets/images/mada.png" alt="">
+                    <img src="./assets/images/paypal.png" alt="">
+                    <img src="./assets/images/master.png" alt="">
+                    <img src="./assets/images/visa.png" alt="">
+                </div>
+                <div class="tel">
+                    <p>Tax Number:546987552</p>
+                </div>
+            </div>
+        </section>
+        <!-- end downfooter -->
+    </footer>
+<!-- end footer -->
+
+</body>
+</html>

@@ -1,0 +1,1442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+/*  start header */
+/*  start top header  */
+.tophead{
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    background: #f8f8f8;
+
+}
+.tophead ul li , .tophead ul img , .tophead ul li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.41px;
+    text-align: left;
+    color: #666666;
+}
+
+.tophead ul img,.tophead .left li {
+    border-right: 1px solid #666666;
+    line-height: 10px;
+    padding-right: 10px;
+}
+
+.tophead ul img:last-child, .tophead .left li:last-child{
+    border: none;
+}
+.tophead .left ul ,.tophead .right ul{
+    display: flex;
+    gap: 10px
+}
+
+.tophead .left .img{
+    padding-left: 15px;
+}
+
+/*  end top header  */
+
+/*   start nav bar  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    width: 100%;
+    height: 116px;
+    align-items: center;
+}
+nav .right{
+    display: flex;
+    gap: 25px;
+}
+nav .right .card{
+    display: flex; 
+    gap: 20px;
+    
+}
+
+nav .right p:first-child{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: center;
+    color:#a5a5a5;
+
+}
+
+nav .right p:last-child{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+    color: #333333;
+}
+nav .right .login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/*   end nav bar   */
+
+/*   start banner  */
+.banner ,#bannerContainer{
+    display: flex;
+    height: calc(100vh - 156px);
+    max-width: 100vw;
+    background-image: url(../images/Banner.png);
+    justify-content: center;
+    background-size: cover;
+}
+.banner .container,#bannerContainer .content,#bannerContainer1 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 80%;
+}
+.banner .content ,#bannerContainer .content,#bannerContainer1 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 74%;
+    text-align: center;
+    gap: 15px;
+}
+.banner h1, #bannerContainer .content h1 ,#bannerContainer1 .content h1{
+    font-family: Rubik;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.banner p, #bannerContainer .content p ,#bannerContainer1 .content p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.banner button ,#bannerContainer button ,#bannerContainer1 .content button{
+    background:#62d0b6;
+    padding: 10px 30px;
+    border: 1px solid #62d0b6;
+    border-radius: 4px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color:rgba(255, 255, 255, 1);
+}
+
+/*  end banner  */
+/*  end header  */
+
+/* start featuresContainer */
+
+#featuresContainer {
+    max-width: 100vw;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 70px;
+}
+#featuresContainer .card{
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 23px;
+}
+
+#featuresContainer h2{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+#featuresContainer p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+/* end featuresContainer */
+
+/* start bannersContainer */
+#bannersContainer {
+    margin: 56.5px 0;
+    display: flex;
+    padding: 56px 70px;
+    justify-content: space-around;
+}
+
+#bannersContainer .left{
+    display: flex;
+    flex-direction: column;
+    width: 43.7%;
+    gap: 16px;
+    padding: 54px 54px;
+    width: 597.77px;
+    background-image: url(../images/Banner2.png);
+    
+
+}
+#bannersContainer .right{
+    display: flex;
+    width: 43.7%;
+    flex-direction: column;
+    gap: 16px;
+    padding: 54px 54px;
+    width: 597.77px;
+    background-image: url(../images/Banner3.png);
+    
+}
+
+#bannersContainer h2{
+    font-family: Rubik;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 49px;
+    text-align: left;
+    color: #333333;
+
+}
+
+#bannersContainer p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #666666;
+}
+
+#bannersContainer p:last-child{
+    padding-left: 10px;
+}
+/* end bannersContainer */
+/* start productsContainer */
+#productsContainer {
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(4 , minmax(288.5px , 100px)) ;
+    justify-content: space-evenly;
+    padding: 56px 75px;
+    gap: 20px;
+}
+
+#productsContainer .title ,#categorysContainer .title ,#discountproductsContainer .title{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#productsContainer .title h1 ,#categorysContainer .title h1 ,#discountproductsContainer .title h1{
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    color: #333333;
+
+}
+
+#productsContainer .title p ,#categorysContainer .title p ,#discountproductsContainer .title p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #666666;
+
+}
+
+#productsContainer .title button ,#categorysContainer .title button ,#discountproductsContainer .title button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 107px;
+    height: 38px;
+    border: 1px solid #62d0b6;
+    background-color: white;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: right;
+    color: #62d0b6;
+    padding: 16px;
+}
+#productsContainer .card , #all_product  .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 16px;
+    border: 1px solid #eeeeee;
+    border-radius:5px;
+    height: 425px;
+}
+#productsContainer .card:hover , #all_product  .card:hover{
+    border: 1px solid #62D0B6;
+}
+#productsContainer .image , #all_product  .image{
+    position: relative;
+    max-width: 288.5px;
+}
+#productsContainer .discount , #all_product  .discount{
+    padding: 10px 15px;
+    position: absolute;
+}
+
+#productsContainer .content ,#discountproductsContainer .content .text , #all_product  .content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0 20px;
+}
+#productsContainer .content p ,#discountproductsContainer .content .text p , #all_product  .content p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: left;
+    color: #666666;
+
+}
+#productsContainer .card .content h2 ,#discountproductsContainer .content .text h2 , #all_product  .content h2{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+}
+
+#productsContainer .content p:first-child ,#discountproductsContainer .content .text p:first-child , #all_product  .content  p:first-child{
+    color:#62d0b6;
+}
+#productsContainer .content p:last-child ,#discountproductsContainer .content .text p:last-child , #all_product  .content p:last-child{
+    color: #f55157;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+#productsContainer .content p:last-child del , #all_product  .content p:last-child del{
+    padding-right: 5px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+
+#productsContainer .card:nth-child(6) .content p:last-child ,#productsContainer .card:nth-child(8) .content p:last-child ,  #all_product .card:nth-child(1) .content p:last-child ,
+#all_product .card:nth-child(3) .content p:last-child ,  #all_product .card:nth-child(4) .content p:last-child ,  #all_product .card:nth-child(7) .content p:last-child , 
+#all_product .card:nth-child(9) .content p:last-child ,  #all_product .card:nth-child(10) .content p:last-child ,  #all_product .card:nth-child(12) .content p:last-child{
+    color: #333333;
+}
+
+#productsContainer .btn ,#discountproductsContainer .btn , #all_product  .btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#productsContainer .btn .like,#discountproductsContainer .btn .like ,  #all_product  .btn .like{
+    width: 50px;
+    height: 56px;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    border-radius:5px;
+}
+
+#productsContainer .btn .cart ,#discountproductsContainer .cart ,  #all_product  .btn .cart{
+    width: 198.5px;
+    height: 56px;
+    border: 1px solid  #eeeeee;
+    background-color: white;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    border-radius:5px;
+
+}
+#productsContainer .btn .cart:hover ,#discountproductsContainer .cart ,  #all_product  .btn .cart:hover{
+    border: 1px solid #62D0B6;
+    background-color: #62D0B6;
+    color: #e0f6f0;
+}
+/* end productsContainer */
+/* start bannerContainer */
+#bannerContainer {
+    padding: 56px 70px;
+    background-image: url(../images/bannerContainer.png);
+    background-size: cover;
+    justify-content: start;
+}
+
+#bannerContainer .content{
+    max-width: 40%;
+    align-items: start;
+}
+#bannerContainer .content p{
+    text-align: left;
+}
+
+/* end bannerContainer */
+/* start categorysContainer  */
+#categorysContainer ,#discountproductsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 56px 70px;
+}
+#categorysContainer .category{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 56px 0;
+    gap: 24px;
+}
+#categorysContainer .category .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+#categorysContainer .category .card h2{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+    
+}
+
+#categorysContainer .category .card p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+   color: #666666;
+    
+}
+/* end categorysContainer  */
+/* start discountproductsContainer */
+#discountproductsContainer .container{
+    margin: 56px 0;
+    display: flex;
+    gap: 32px;
+}
+
+#discountproductsContainer .container .left ,#discountproductsContainer .container .right{
+    display: flex;
+    border: 2px solid #62d0b6;
+    border-radius: 4px;
+    padding: 16px;
+    width: 64%;
+    justify-content: space-between;
+}
+#discountproductsContainer .container .images{
+    display: flex;
+    flex-direction: column;
+}
+#discountproductsContainer .container .image{
+    position: relative;
+}
+#discountproductsContainer .container .discount{
+    position: absolute;
+    padding: 5px 10px;
+}
+
+#discountproductsContainer .content .text p:nth-child(4){
+   color: rgba(165, 165, 165, 1);
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+#discountproductsContainer .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#discountproductsContainer .time{
+    display: flex;
+    gap: 8px;
+    width: 357px;
+    justify-content: space-between;
+}
+
+#discountproductsContainer .time .card{
+    padding: 8px 16px;
+    background:#f8f8f8;
+    width: 83px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#discountproductsContainer .time .card h2{
+    font-family:  Next LT Arabic;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+#discountproductsContainer .time .card p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: center;
+    color: #a5a5a5;
+
+}
+#discountproductsContainer .cart{
+    width: 299px;
+    border: 1px solid #62d0b6;
+    background: #62d0b6;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+/* end discountproductsContainer */
+/* start productContainer */
+#productContainer{
+    padding: 56px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#productContainer .card{
+    width: 392.67px;
+    height: 476px;
+    padding: 32px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+#productContainer .card .content{
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#productContainer .card:first-child{
+    background-color: #fddcdd;
+}
+#productContainer .card:nth-child(2){
+    background-color: #ffefda;
+}
+#productContainer .card:last-child{
+    background-color: #e0f6f0;
+
+}
+#productContainer .card .text h2{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.33px;
+    text-align: center;
+    color:#333333;
+}
+#productContainer .card .text p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: center;
+    color: #666666;
+}
+
+#productContainer .card .btn a{
+    text-decoration: none;
+    color: #333333;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;    
+}
+/* end productContainer */
+/* start bannerContainer1 */
+#bannerContainer1{
+    background-image: url(../images/Untitled.png);
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    height: 391px;
+    width: 100%;
+}
+
+#bannerContainer1 .content{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#bannerContainer1 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#bannerContainer1 .points{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding-top: 70px;
+    
+}
+#bannerContainer1 .points .point{
+    width: 14px;
+    height: 14px;
+    border: 1px solid  #eeeeee;
+    border-radius: 50%;
+}
+#bannerContainer1 .points .point:nth-child(3){
+    width: 37px;
+    border-radius: 10px;
+    background-color: rgba(98, 208, 182, 1);
+
+}
+/* end bannerContainer1 */
+/* start reviewsContainer */
+#reviewsContainer{
+    padding: 56px 70px;
+}
+
+#reviewsContainer .content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+#reviewsContainer .title h1{
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    color: #333333;
+
+}
+#reviewsContainer .title p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;    
+    color: #666666;
+}
+#reviewsContainer .card{
+    padding: 24px;
+    border: 1px solid  #eeeeee;
+    width: 380px;
+    height: 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#reviewsContainer .top{
+    display: flex;
+    justify-content: space-between;
+}
+#reviewsContainer .card .desc .p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color:#666666;
+}
+
+#reviewsContainer .card .userinfo h2{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #333333;
+}
+#reviewsContainer .card p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: left;
+    color:#666666;
+    
+}
+/* end reviewsContainer */
+/* start brandContainer */
+#brandContainer {
+    padding: 56px 70px;
+}
+#brandContainer .title h2{
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    color: #333333;
+}
+#brandContainer .title p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #666666;
+}
+#brandContainer .content{
+    padding: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* end brandContainer */
+/* start topfooter */
+#topfooter{
+    display: flex;
+    padding: 24px 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+
+}
+
+#topfooter .card{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#topfooter .form{
+    display: flex;
+    gap: 8px;
+}
+
+#topfooter .card h2{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color:#333333;
+}
+#topfooter .card p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: right;
+    color: #666666;
+    
+}
+
+#topfooter .form .text input{
+    width: 352px;
+    height: 39px;
+    padding: 10px 16px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+#topfooter .form .btn button{
+    width: 90px;
+    height: 39px;
+    padding: 8px;
+    background: #62d0b6;
+    border: 1px solid  #62d0b6;
+    border-radius: 4px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: center;
+    color: #ffffff;
+}
+/* end topfooter */
+/* start downfooter */
+#downfooter{
+    padding: 16px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #1d1f1f;
+}
+#downfooter .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+#downfooter .left p,#downfooter .right .tel p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    color: #ffffff;
+}
+/* end downfooter */
+/* end Home Page */
+/*start All Product*/
+#all_product{
+    display: flex;
+    justify-content: space-between;
+}
+
+#all_product .container{
+    display:grid;
+    width: 74%;
+    grid-template-columns: repeat(3 , minmax(288.5px , 100px)) ;
+    justify-content: space-between;
+    gap: 20px;
+}
+/*end All Product*/
+/* Start Product Details */
+#productdetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 70px;
+    gap: 15px;
+}
+
+#productdetails .productimage{
+    width: 50%;
+}
+#productdetails .contentContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+#productdetails .contentContainer .share{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+#productdetails .contentContainer .share p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: right;
+}
+#productdetails .contentContainer .details{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#productdetails .contentContainer .details h2:first-child{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.28px;
+    text-align: left;
+    
+}
+#productdetails .contentContainer .details h2:nth-child(3){
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+#productdetails .contentContainer .details a{
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #62d0b6;
+}
+#productdetails .contentContainer .action , #Order .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px 0;
+}
+#productdetails .contentContainer .action .card ,  #Order .left .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #eeeeee;
+    background: #ffffff;
+}
+#Order .left .card{
+    width:920px;
+    height:112px;
+}
+#productdetails .contentContainer .action .card img{
+    padding-right: 8px;
+}
+
+#productdetails .contentContainer .action .card h2{
+    max-width: 407px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #333333;
+    
+}
+#productdetails .contentContainer .action .card .add , #Order .left .card .add {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid rgba(238, 238, 238, 1);
+}
+#productdetails .contentContainer .action .card p{
+    max-width: 407px;
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.41px;
+}
+#productdetails .contentContainer .action .card .content{
+    display: flex;
+    align-items: center;
+}
+#productdetails .contentContainer .action .card .btn button{
+    width: 95px;
+    height: 38px;
+    border: 1px solid #62d0b6;
+    background-color: #ffffff;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    color: #62d0b6;
+}
+#productdetails .contentContainer .amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#productdetails .contentContainer .purchase .number , #Order .left .card .number {
+    display: flex;
+    width: 180px;
+    height: 50px;
+}
+#productdetails .contentContainer .purchase .number p , #Order .left .card .number p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid  rgba(238, 238, 238, 1);
+    font-family: DIN Next LT Arabic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    
+}
+#productdetails .contentContainer .purchase .price p{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.28px;
+    text-align: left;
+    color: #333333;
+
+}
+#productdetails .contentContainer .purchase .btn{
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contentContainer .purchase .btn button{
+    width: 48%;
+    padding: 16px;
+    border: 1px solid #62d0b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.contentContainer .purchase .btn button:first-child{
+    color: #62d0b6;
+    background-color: #ffffff;
+}
+.contentContainer .purchase .btn button:last-child{
+    background: #62d0b6;
+    color: #ffffff;
+}
+/* end Product Details */
+/* start sidebar */
+#all_product{
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 70px;
+}
+#all_product .sidebar{
+    width: 23%;
+    padding: 16px;
+    border: 1px solid #eeeeee;
+    height: fit-content;
+}
+ #all_product .item input[type="radio"]{
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#all_product .sidebar .item{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+#all_product .sidebar .rd{
+    display: flex;
+    gap: 10px;
+}
+#all_product .sidebar .rd input{
+    display: flex;
+    border: 1px solid #62d0b6;
+    width: 18px;
+    height: 18px;
+}
+#all_product .sidebar .rd input:checked{
+    background-color: #62d0b6;
+}
+#all_product .sidebar .rd label{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: right;
+    color:  #333333;
+}
+#all_product .sidebar .item{
+    padding-bottom: 20px;
+    font-family: DIN Next LT Arabic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.58px;
+    text-align: right;
+   color:  rgba(102, 102, 102, 1);
+
+}
+summary::-webkit-details-marker {
+    display: none;
+  }
+#all_product .sidebar details{
+    padding: 10px;
+    border-bottom: 1px solid  #eeeeee;
+}
+summary {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #333333;
+  }
+  summary i{
+    cursor: pointer;
+    color: #62d0b6;
+  }
+
+  #all_product .sidebar a{
+    text-decoration: none;
+    list-style: none;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: left;
+    color: #62d0b6;
+  }
+  #all_product .category .red{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#f55157;
+  }
+  
+  #all_product .category .green{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#00af6c;
+  }
+  #all_product .category .black{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#333333;
+  }
+  #all_product .category .blue{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#62d0b6;
+  }
+  #all_product .category .yellow{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#ffaf44;
+  }
+  
+/* end sidebar */
+
+/*start Order Detiles*/
+#Order {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+    padding: 0 70px;
+}
+#Order .left .card .par{
+    width: 352px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Order .left .card .par .SR{
+    color: #666666;
+}
+#Order .left .card .add{
+    background-color: #F8F8F8;
+}
+#Order .right{
+    width: 282px;
+    height: 320px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    margin-top: 25px;
+    padding: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+#Order .right p{
+    font-size: 18px;
+    color: #333333;
+}
+#Order .right .products , #Order .right .total{
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    font-size: 16px;
+   
+}
+#Order .right .total{
+    color: #333333;
+}
+#Order .right .code{
+    width: 250px;
+}
+#Order .right .code input{
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid  rgba(238, 238, 238, 1);
+    margin-top:10px ;
+}
+
+#Order .right .code .enter{
+    padding-left: 15px;
+}
+#Order .right .code  .add{
+    width: 60px;
+    color: #62D0B6;
+    border: 1px solid #62d0b6;
+    background-color: #ffffff;
+   
+}
+#Order .right .tax{
+    font-size: 14px;
+    color: #666666;
+    line-height: 16.59px;
+
+}
+#Order .right a ,#Order .right .check, #Check_Out .check , #Payment .check{
+    height: 56px;
+    background-color: #62D0B6;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* end Order Details */
+
+/* start check out */
+#Check_Out , #Payment{
+    padding: 56px 70px;
+}
+#Check_Out h1{
+    padding-bottom: 30px;
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.5px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #333333;    
+}
+#Check_Out .grid_container , #Payment .item11{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 380px 380px;
+    margin-top: 20px;
+}
+
+#Check_Out .grid_container .item1 , #Check_Out .container .item2 , #Check_Out .item3{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+#Check_Out .container  {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+#Check_Out .container .item2 input , #Check_Out .container .item2 select{
+    width: 246px;
+}
+#Check_Out .item3{
+    margin-top: 20px;
+}
+#Check_Out .item3 input{
+    width: 380px;
+}
+#Check_Out .grid_container .item1 input , #Check_Out .container .item2 input , #Check_Out .container .item2 select , #Check_Out .item3 input
+, #Payment .item11  input{
+    height: 50px;
+    background-color: #F6F6F6;
+    color: #807D7E;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+#Check_Out .check ,  #Payment .check{
+    width: 210px;
+    margin-top: 20px;
+}
+#Check_Out .box{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.33px;
+  text-align: left;
+  margin-top: 20px;
+}
+#Payment{
+    margin-top: 30px;
+}
+#Payment .container{
+    margin-top: 30px;
+    background-color: #F5F5F555;
+   padding-top: 5px;
+}
+#Payment .card , #Payment .card1{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+#Payment .card .icon , #Payment .card1 .icon{
+    display: flex;
+    align-items: center;
+}
+#Payment .card .icon input[type="radio"] ,#Payment .card1 .icon input[type="radio"]{
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#Payment .card  input ,#Payment .card1  input{
+    display: flex;
+    border: 1px solid #62D0B6;
+    width: 18px;
+    height: 18px;
+}
+#Payment .card input:checked ,#Payment .card1 input:checked  {
+    background-color:#62D0B6;
+}
+#Payment .image{
+    width: 380px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 35px;
+    margin-top: 20px;
+}
+
+#Payment .item11  input{
+    width: 340px;
+    border: solid 1px #333333;
+    background-color: #FFFFFF;
+}
+
+#Payment .item11{
+    padding: 0 35px;
+}
+
+#Payment .card1{
+    height: 100px;
+    width: 780px;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #BEBCBD;
+    border-bottom: solid 1px #BEBCBD ;
+}
+
+#Payment .card1 .icon input[type="radio"]{
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #62D0B6;
+}
+#Payment .card1 .icon input:checked{
+    background-color: #62d0b6;
+}
+/* end check out */
+
+/* start info */
+#user_info{
+    display: flex;
+    flex-direction: column;
+    padding: 56px 70px;
+    gap:30px
+}
+#user_info .title{
+    display: flex;
+    flex-direction: column;
+}
+#user_info .title h1 ,#user_info .container h1{
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.5px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #333333;
+}
+#user_info .title p{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33.5px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #666666;
+
+}
+#user_info .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#user_info .container .information{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#user_info .container .information .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#user_info .container .information .change a{
+    text-decoration: none;
+    list-style: none;
+}
+#user_info .container .information .info p{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    color: #666666;
+}
+#user_info .container .information .info h2{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color:#333333;
+}
+#user_info .container .information .change a{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #333333;
+}
+#user_info .container button{
+   padding: 16px 20px;
+   font-family: Rubik;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.33px;
+   text-align: center;
+   color: #ffffff;
+   background: #62d0b6;
+   border: 1px solid #62D0B6;
+   border-radius: 8px;
+   max-width: 209px;
+}
+/* end info */
+a{
+    text-decoration: none;
+}
